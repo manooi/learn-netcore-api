@@ -121,3 +121,9 @@ C:\Users\sirawit.mahanin\source\repos\CourseLibrary.API\CourseLibrary.API\obj\De
 C:\Users\sirawit.mahanin\source\repos\CourseLibrary.API\CourseLibrary.API\obj\Debug\netcoreapp3.1\CourseLibrary.API.RazorTargetAssemblyInfo.cache
 C:\Users\sirawit.mahanin\source\repos\CourseLibrary.API\CourseLibrary.API\obj\Debug\netcoreapp3.1\CourseLibrary.API.csproj.CopyComplete
 C:\Users\sirawit.mahanin\source\repos\CourseLibrary.API\CourseLibrary.API\obj\Debug\netcoreapp3.1\CourseLibrary.API.genruntimeconfig.cache
+C:\Users\sirawit.mahanin\source\repos\CourseLibrary.API\CourseLibrary.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\sirawit.mahanin\source\repos\CourseLibrary.API\CourseLibrary.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\sirawit.mahanin\source\repos\CourseLibrary.API\CourseLibrary.API\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\siraw\source\repos\CourseLibrary.API\CourseLibrary.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\siraw\source\repos\CourseLibrary.API\CourseLibrary.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\siraw\source\repos\CourseLibrary.API\CourseLibrary.API\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
