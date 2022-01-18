@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\siraw\\source\\repos\\CourseLibrary.API\\CourseLibrary.API\\CourseLibrary.API.csproj": {}
+    "C:\\Users\\sirawit.mahanin\\source\\repos\\CourseLibrary.API\\CourseLibrary.API\\CourseLibrary.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\siraw\\source\\repos\\CourseLibrary.API\\CourseLibrary.API\\CourseLibrary.API.csproj": {
+    "C:\\Users\\sirawit.mahanin\\source\\repos\\CourseLibrary.API\\CourseLibrary.API\\CourseLibrary.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\siraw\\source\\repos\\CourseLibrary.API\\CourseLibrary.API\\CourseLibrary.API.csproj",
+        "projectUniqueName": "C:\\Users\\sirawit.mahanin\\source\\repos\\CourseLibrary.API\\CourseLibrary.API\\CourseLibrary.API.csproj",
         "projectName": "CourseLibrary.API",
-        "projectPath": "C:\\Users\\siraw\\source\\repos\\CourseLibrary.API\\CourseLibrary.API\\CourseLibrary.API.csproj",
-        "packagesPath": "C:\\Users\\siraw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\siraw\\source\\repos\\CourseLibrary.API\\CourseLibrary.API\\obj\\",
+        "projectPath": "C:\\Users\\sirawit.mahanin\\source\\repos\\CourseLibrary.API\\CourseLibrary.API\\CourseLibrary.API.csproj",
+        "packagesPath": "C:\\Users\\sirawit.mahanin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sirawit.mahanin\\source\\repos\\CourseLibrary.API\\CourseLibrary.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\siraw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sirawit.mahanin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
