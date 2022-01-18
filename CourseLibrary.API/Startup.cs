@@ -26,11 +26,10 @@ namespace CourseLibrary.API
     {
       services.AddControllers(setupAction =>
       {
-        setupAction.ReturnHttpNotAcceptable = true;
-        setupAction.OutputFormatters.Add(
-          new XmlDataContractSerializerOutputFormatter());
-      }
-      );
+      setupAction.ReturnHttpNotAcceptable = true;
+      //  setupAction.OutputFormatters.Add(
+      //    new XmlDataContractSerializerOutputFormatter());
+      }).AddXmlDataContractSerializerFormatters();
 
       services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
