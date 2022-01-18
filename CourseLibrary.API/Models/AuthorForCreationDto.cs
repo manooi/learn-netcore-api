@@ -1,22 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace CourseLibrary.API.Models
 {
-  public class AuthorForCreationDto
-  {
-    public string FirstName { get; set; }
+    public class AuthorForCreationDto
+    {
 
-    public string LastName { get; set; }
+        [Required]
+        [MaxLength(50)]
+        public string FirstName { get; set; }
 
-    public DateTimeOffset DateOfBirth { get; set; }
+        [Required]
+        [MaxLength(50)]
+        public string LastName { get; set; }
 
-    public string MainCategory { get; set; }
+        [Required]
+        public DateTimeOffset DateOfBirth { get; set; }
 
-    public ICollection<CourseForCreationDto> Courses { get; set; }
-    = new List<CourseForCreationDto>();
-  }
+        [Required]
+        [MaxLength(50)]
+        public string MainCategory { get; set; }
+
+        public ICollection<CourseForCreationDto> Courses { get; set; }
+        = new List<CourseForCreationDto>();
+    }
 }
