@@ -1,23 +1,11 @@
-<<<<<<< HEAD
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace CourseLibrary.API.Models
 {
-  public class CourseForUpdateDto
-  {
-    public string Title { get; set; }
-    public string Description { get; set; }
-  }
-}
-=======
-﻿namespace CourseLibrary.API.Models
-{
     public class CourseForUpdateDto : CourseForManipulationDto
     {
+
+        [Required(ErrorMessage = "You should fill out a description.")]
+        public override string Description { get => base.Description; set => base.Description = value; }
     }
 }
->>>>>>> d752139fab204ce7bae20103a059408461d60106

@@ -12,7 +12,7 @@ namespace CourseLibrary.API.Models
         public string Title { get; set; }
 
         [MaxLength(1500, ErrorMessage = "The description shouldn't have more than 1500 characters.")]
-        public abstract string Description { get; set; }
+        public virtual string Description { get; set; }
 
     }
 }
