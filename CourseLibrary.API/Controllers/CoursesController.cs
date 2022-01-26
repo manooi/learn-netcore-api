@@ -69,9 +69,10 @@ namespace CourseLibrary.API.Controllers
         courseToReturn);
     }
 
-    [HttpPut("{courseId")]
+    [HttpPut("{courseId}")]
     public ActionResult UpdateCourseForAuthor(Guid authorId, Guid courseId, CourseForUpdateDto courseForUpdateDto)
     {
+
       if (!_courseLibraryRepository.AuthorExists(authorId))
       {
         return NotFound();
@@ -83,6 +84,17 @@ namespace CourseLibrary.API.Controllers
       {
         return NotFound();
       }
+
+      // map the entity to a CourseForUpdateDto
+      // apply the updated filed values to that dto
+      // map the CourseForUpdateDto back to an entity
+      _mapper.Map(courseForUpdateDto, courseForAuthorFromRepo); // source --> destination
+
+      _courseLibraryRepository.UpdateCourse(courseForAuthorFromRepo);
+      _courseLibraryRepository.Save();
+
+      return NoContent();
+
     }
   }
 }

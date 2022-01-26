@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,3 +13,11 @@ namespace CourseLibrary.API.Models
     public string Description { get; set; }
   }
 }
+=======
+﻿namespace CourseLibrary.API.Models
+{
+    public class CourseForUpdateDto : CourseForManipulationDto
+    {
+    }
+}
+>>>>>>> d752139fab204ce7bae20103a059408461d60106
